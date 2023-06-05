@@ -117,7 +117,7 @@ step(static_compensator*controlled_tf);
 
 t = linspace(0, 20, 1000);                         % Time Vector
 u = sin(t);                                     % Forcing Function
-y = lsim(static_compensator*controlled_tf, u, t);                                % Calculate System Response
+y = lsim(static_compensator*controlled_tf, u, t); % Calculate System Response
 figure(1)
 plot(t, y, t, u)
 grid
