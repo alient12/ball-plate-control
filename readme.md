@@ -4,7 +4,7 @@
     <td><b style="font-size:30px">MATLAB LIVE SCRIPT</b></td>
     <td><b style="font-size:30px">LIVE RESULTS</b></td>
  </tr>
- <tr>
+ <tr style="vertical-align:top">
     <td>
 
 **System Definition**
