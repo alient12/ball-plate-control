@@ -132,6 +132,11 @@ k_new = place(A_bar,B_bar,[sd_1,sd_2,sd_3,sd_4,-40])
 k_d = [k_new(1:4) 0 0 0 0; 0 0 0 0 k_new(1:4)]
 dynamic_pre_comp = [-k_new(:,5:end) 0; 0 -k_new(:,5:end)]
 ```
+	   
+<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
 </td><td>
 
 **b** *(1x1)*:
