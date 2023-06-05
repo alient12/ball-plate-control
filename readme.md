@@ -1,3 +1,26 @@
+
+<style>
+table {
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;
+}
+
+td, th {
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+}
+
+th {
+    background-color: blue;
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+</style>
+
 <table border="1">
  <tr>
     <td><b style="font-size:30px">MATLAB LIVE SCRIPT</b></td>
@@ -316,10 +339,10 @@ Continuous-time transfer function.
 
 ```
 
-![resources/f2f9fc6b-fe2d-4f3d-8e79-70d7d3815b4f.png](f2f9fc6b-fe2d-4f3d-8e79-70d7d3815b4f.png)
+![f2f9fc6b-fe2d-4f3d-8e79-70d7d3815b4f.png](resources/f2f9fc6b-fe2d-4f3d-8e79-70d7d3815b4f.png)
 
 
-![resources/008281e5-ffe8-4a76-96dc-74eab0b4808b.png](008281e5-ffe8-4a76-96dc-74eab0b4808b.png)
+![008281e5-ffe8-4a76-96dc-74eab0b4808b.png](resources/008281e5-ffe8-4a76-96dc-74eab0b4808b.png)
 
 **k_new** *(1x5) double*:
 
