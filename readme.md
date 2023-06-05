@@ -1,11 +1,4 @@
-
-<table border="1">
- <tr>
-    <td><b style="font-size:30px">MATLAB LIVE SCRIPT</b></td>
-    <td><b style="font-size:30px">LIVE RESULTS</b></td>
- </tr>
- <tr style="vertical-align:top">
-    <td>
+<h1>MATLAB LIVE SCRIPT</h1>
 
 **System Definition**
 
@@ -117,7 +110,7 @@ step(static_compensator*controlled_tf);
 
 t = linspace(0, 20, 1000);                         % Time Vector
 u = sin(t);                                     % Forcing Function
-y = lsim(static_compensator*controlled_tf, u, t); % Calculate System Response
+y = lsim(static_compensator*controlled_tf, u, t);                                % Calculate System Response
 figure(1)
 plot(t, y, t, u)
 grid
@@ -132,12 +125,7 @@ k_new = place(A_bar,B_bar,[sd_1,sd_2,sd_3,sd_4,-40])
 k_d = [k_new(1:4) 0 0 0 0; 0 0 0 0 k_new(1:4)]
 dynamic_pre_comp = [-k_new(:,5:end) 0; 0 -k_new(:,5:end)]
 ```
-	   
-<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
-<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
-<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
-<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
-</td><td>
+<h1>RESULTS</h1>
 
 **b** *(1x1)*:
 
@@ -361,4 +349,3 @@ Continuous-time transfer function.
    -0.4437   -0.0698    0.0336    0.0010    1.5698
 
 ```
-</td></tr></table>
